@@ -42,8 +42,10 @@ export default function Example({ block: { Blocks, childBlocks } }) {
             className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
             defaultValue={childBlocks[0].title}
           >
-            {childBlocks.map((tab) => (
-              <option key={tab.title}>{tab.title}</option>
+            {childBlocks.map((tab, index) => (
+              <option key={index} onClick={() => handleClick(index)}>
+                {Profile.stripTags(tab.title)}
+              </option>
             ))}
           </select>
         </div>
