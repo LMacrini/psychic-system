@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@headlessui/react": "^1.7.13",
+        "@popperjs/core": "^2.11.8",
         "@tailwindcss/line-clamp": "^0.4.4",
         "@uniwebcms/express": "^1.0.2",
         "@uniwebcms/module-sdk": "^1.6.1",
