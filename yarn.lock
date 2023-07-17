@@ -1840,14 +1840,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uniwebcms/express@npm:0.2.7":
-  version: 0.2.7
-  resolution: "@uniwebcms/express@npm:0.2.7"
+"@uniwebcms/express@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@uniwebcms/express@npm:1.0.2"
   dependencies:
     "@headlessui/react": ^1.7.3
     "@popperjs/core": ^2.10.1
     "@react-google-maps/api": ^2.17.1
-    "@uniwebcms/module-sdk": ^1.6.1
+    "@uniwebcms/module-sdk": ^1.7.1
     flowbite-react: ^0.4.9
     react-icons: ^4.6.0
     react-spinners: ^0.13.8
@@ -1855,13 +1855,13 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     tailwindcss: ^3.2.4
-  checksum: a83686fcf90d984e7b1d04c0eeb87ed4ce0f79ed1296e492aa673411f0b74a0170ceabb6694f77b4b05fc533750bcceb490b52bf80c10dd290abc1f8f6dbb010
+  checksum: 0b9f7dcbe2d5a9f6dd753770c6203573019536495d990647162302f09593a75012c8b8b47c713089bc944420ab02f5ea8fbb244bdf873c765710c67c5ffdfad1
   languageName: node
   linkType: hard
 
-"@uniwebcms/module-builder@https://github.com/uniwebcms/uniweb-module-builder.git":
-  version: 1.0.4
-  resolution: "@uniwebcms/module-builder@https://github.com/uniwebcms/uniweb-module-builder.git#commit=0697158de1a12ca03c31626f2550776655f6f9bb"
+"@uniwebcms/module-builder@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "@uniwebcms/module-builder@npm:1.2.3"
   dependencies:
     "@tailwindcss/nesting": ^0.0.0-insiders.565cd3e
     autoprefixer: ^10.4.13
@@ -1885,7 +1885,7 @@ __metadata:
     postcss-loader: ^7.0.2
     style-loader: ^2.0.0
     webpack: ^5.74.0
-  checksum: 704df30d1622e2a441b04539f65e8ecfeb8608e74e4ef6b6825e94d399dcc26e44977b85067ae152b66ce7a385ff209af18007c0958682a23390237ae69ba3d1
+  checksum: 9223f49364861052aeb17cb8e7e64645328d538f058933becc7b00e531d915dd424cffb34f2b290b45b9bcc50c1a5a935b79c72ea489788cb927365ee4d66424
   languageName: node
   linkType: hard
 
@@ -1902,6 +1902,23 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
   checksum: 26d2dff96bc3223199a49a4405d724ece3e82eeaf539324bc1f347d6aeac110136b53a1f45b6e61d4e3e098dea6f0b7b874bb55ffca2abf768c28bc03dc8fae5
+  languageName: node
+  linkType: hard
+
+"@uniwebcms/module-sdk@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "@uniwebcms/module-sdk@npm:1.7.1"
+  dependencies:
+    "@headlessui/react": ^1.7.3
+    "@popperjs/core": ^2.10.1
+    "@react-google-maps/api": ^2.17.1
+    dompurify: ^3.0.4
+    react-icons: ^4.6.0
+    tailwind-merge: ^1.13.2
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 43f544593c558520b9bbdffaf38424fc085c6693dd931e77a1f0e5d9b89e4488560da3a10f270f53cc0d80ea21c534bc47e7368bfa511ae7010f56a995db8b4c
   languageName: node
   linkType: hard
 
@@ -2496,7 +2513,7 @@ __metadata:
     "@babel/core": ^7.13.14
     "@babel/preset-env": ^7.13.12
     "@babel/preset-react": ^7.13.13
-    "@uniwebcms/module-builder": "https://github.com/uniwebcms/uniweb-module-builder.git"
+    "@uniwebcms/module-builder": ^1.2.3
     babel-loader: ^8.2.2
     cloudflared: ^0.4.0
     css-loader: ^5.2.0
@@ -2968,6 +2985,13 @@ __metadata:
   version: 1.1.3
   resolution: "dlv@npm:1.1.3"
   checksum: d7381bca22ed11933a1ccf376db7a94bee2c57aa61e490f680124fa2d1cd27e94eba641d9f45be57caab4f9a6579de0983466f620a2cd6230d7ec93312105ae7
+  languageName: node
+  linkType: hard
+
+"dompurify@npm:^3.0.4":
+  version: 3.0.5
+  resolution: "dompurify@npm:3.0.5"
+  checksum: 2d9421570c833ce26ce7022955241749b646d41e8bf453f42ede9f22d0e98af482cedb7dfbf8129419eb48b351c1d677a08fc9f1cd91836ce7f6c1807a0676b2
   languageName: node
   linkType: hard
 
@@ -5469,7 +5493,7 @@ __metadata:
   dependencies:
     "@headlessui/react": ^1.7.13
     "@tailwindcss/line-clamp": ^0.4.4
-    "@uniwebcms/express": 0.2.7
+    "@uniwebcms/express": ^1.0.2
     "@uniwebcms/module-sdk": ^1.6.1
     react: ^18.2.0
     react-dom: ^18.2.0
